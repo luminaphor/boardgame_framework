@@ -92,7 +92,8 @@ class gameBoard: #game board class, will be used to actually arrange everything 
         else:
             loc1.generalPaths.append(loc2.locID)
             loc2.generalPaths.append(loc1.locID)
-
+            
+#-------------------------------------------------------------------------------------------------------------------------
 #how this code works:
     #you have the boardLoc parent class, which is like the base class for creating a location object. 
     #When you create a location object, it is immediately assigned a unique ID, and 3 empty lists (boatPaths,trainPaths,generalPaths)
