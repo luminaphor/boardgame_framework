@@ -1,0 +1,173 @@
+#SETUP STEPS
+#1. Place Game Board
+#2. Organize Tokens
+    #a.Create Gate Stack - randomize 9 gate tokens, place face down
+    #b.Clue pool, clue yokens facedown and randomized
+    #c. General token pool - all health, sanity, improvement, travel ticke, eldritch, myst, 
+    # rumor tokens
+    #in piles
+
+#3. Choose + Place investigators
+#4. Get starting poessisions, health, sanity
+#5. Ancient one. Choose one. Resolve setup effects.
+#6. Create Monster Cup. Take all non epic and randomize.
+    #keep these separate from epic monsters!!
+#7. Separate and Place decks. 
+    #Take all reseaarch encounter cards, special encounter cards, and mystery cards 
+    #that do not correspond to current ancient one and get rid of them.
+    
+    #Separate all other cards as listed below and place near game board.
+        #Shuffle all Expedition Encounter cards into a single deck
+        #Shuffle spell and condition cards into two separate decks, place faceup with name
+        #and art visible
+        #Set mythos cards aside and then separate all other cards into decks by 
+        # card back and shuffle each
+#8. Build Mythos deck by following instructions at bottom of ancient one sheet to build mythos deck.
+#9. Resolve starting effects. 
+    #a. Place ref card correspondig to num players near mythos deck.
+    #players use this ref card when resolving mythos effects. Return all other Ref cards to game box.
+    #b. Place doom token on space of Doom track listen on Ancient one sheet. 
+    #c. Place omen token on green comet space of omen track.
+    #d. Place the top four cards of the Asset deck faceuup in the slots of the reserve.
+    #e. Spawn num gates indicated on ref card. Take top gate token from gate stack and place
+    #faceup on space indicated on gate token. Then draw one random monster token from
+    #monster cup and place on same space.
+    #f. place active expdition token on space that corresponds to illustration on back of top 
+    #card of Expeidtion Encounter deck.
+    #g. Spawn num clues indicated on ref card. To spawn, take one random clue token from clue pool, place
+    #facedown on space indicated on face of clue token.
+    #h. draw one mystery card and place it near ancient one sheet. Resolve any "when this card enters play"
+    #effects on that card.
+
+Building Mythos deck-
+Built differently depending on each game, based on AO instructions.
+Separate all mythos cards into three piles (based on green, yellow, blue). Shuffle and place facedown.
+Build stage I of mythos deck by taking random cards of denoted color+quantitiy. Shuffle together.
+Build stage 2, place under stage 1 deck.
+Stage 3, place under stage II. Do not shuffle this deck!!
+Place near AO sheet, return all remaining to game box without looking.
+
+Game piece quantities- 
+1 board1 ref guide
+12 investigator sheets, with matching tokens and plastic stands
+4 ancient one sheets
+122 encounter cards
+    -8 america
+    -8 europe
+    -8 asia australia
+    -12 General
+    -24 other world
+    -18 expedition (6 backs, 3 each)
+    -12 special (2 backs, 6 each)
+    -32 research (4 backs, 8 each)
+51 mythos cards
+    -21 yellow 
+    -18 green
+    -12 blue
+16 mystery cards
+    -4 backs, 4 each
+14 artifact cards
+40 asset cards
+36 condition cards
+20 spell cards
+43 monster tokens
+1 lead investigator token
+20 travel ticket tokens (8 train, 12 ship)
+30 improvement tokens (6 for each skill)
+1 mystery token
+36 clue tokens
+20 edlritch tokens
+9 gate tokens
+4 ref cards
+1 active expedition token
+4 dice
+1 doom token
+1 omen token
+4 rumor tokens
+78 health and sanity tokens
+    -30 1HP
+    -12 3HP
+    -24 1S
+    -12 3S
+
+Game Mechanics
+--------------
+Series of rounds.
+Each round consists of 3 phases, resolved in the following order.
+    -Action Phase, investigators perform actions to move about game board and prep.
+    -Encounter Phase, Investiagors fight Monsters, reoslve encounter cards on current space.
+    -Mythos Phase, LI resolves one Mythos card. These cards often advance doom token, spawn gates
+    or rasie other challenges.
+    -At end of each Mythos phase, LI may pass LI token to any player of his choice.
+    PLayers then start a new round by beginning with the Action Phase.
+    Players continue resolving game rounds until they have won or lost.
+PHASE I- Action Phase
+Each player resolves up to two actions. 
+Start with LI, he performs 2 actions, then next player performs 2 actions, and so on.
+The following actions may be performed:
+    -travel (move token to any adjacent space. May spend any number of travel tickets
+    to move one additional space per ticket spent. )
+    -rest (recover 1HP, 1S. CANNOT be performed if there is a monster on that space.
+    -trade (may trade posessions such as Assets, artifacts, clues, spells, tickets with another
+    investigator on their space.)
+    -prep for travel (if on city space, gain 1 TT of his choice. Cannot gain train/ship ticket 
+    unless at least one ship path connected. Cannot have > 2 travel tickets. Choose 2, discard the rest.)
+    -acquire assets (If on city space, Test influence. may attempt to cquire asssrts with
+     total value <= num successes rolled. If no cards gained, investigator may discard 1 card of his/her
+     choice from reserve. After performing action, replace any cards removed from reserve by 
+     drawing replacements from Asset deck. Cannot perform this action if monster on space.)
+    -component actions (investiagor may perform action listed on one of his components such as 
+    card or investigator sheet. Although an investigator cannot perform a component action
+    from a single component more than once each round, he can perform component actions of different components.
+    A player may also perform actions held by other investigators in their space. These are preceded
+    as local actions.)
+Each player can perform each actin only ONCe during a round. 
+
+PHASE II - Encounter Phase
+Each investigator resolves one encounter. 
+If a player is on a space containing one or more monsters, he must resolve a single combat
+encountrer against each monster on that space, one at a time, in order of choice.
+If there are zero monsters on an investigators space, he instead resolves a location encounter 
+or token encounter of his choice as described.
+    Combat Encounter- if >=1 monster on player space, must resolve a combat encounter. 
+    After resolving all combat encounters, if there are no monsters in space, may resolve another.
+    Location Encounter- draw an encounter card matching spaces artwork or from general encouner deck.
+    Resolves effect matching current space, resolves card.
+    If there are multiple types of encouner cards that can be drawn, choose a deck to draw from.
+    Token Encounters - Some tokens get placed on baord to provide 
+    additional encounter options. 
+        -Clues allow investigators to 
+        draw and resolve research encounter cards.
+        -Gate tokens allow investigators to draw and resolve other world encounter cards
+        -Active expedition tokens allow investigators to draw and resolve expedition encounter
+        cards.
+        -Rumor tokens allow investigators to resolve the encounter listed on the rumor mythos
+        card that refers to that space.
+        -Defeated investigator tokens allow investigators to resolve the encounter
+        listed on the bak of the defeated investigators sheet.
+
+PHASE III - Mythos Phase
+LI draws top card of mythos deck. 7 posible effects, LI resolves in order they appear. L->, from top
+    Advance Omen- move omen token 1 space around track. Advance doom by 1 for each gate on game board
+    that matches omen tokens current space.
+    Reckoning- Resolve all effects proceeded by reckoning icon on components in play. 
+    Resolves these in the following order:
+    Monsters -> AO sheet -> Ongoing Mythos cards -> investiagor posessions/conditions
+    Spawn Gates- Spawn num gates as defined by ref
+    Monster Surge - At each gate matching omen tokens current space, spawn num monsters listed 
+    on ref card. If no matching gates crrently on board, spawn a gate instead.
+    Spawn clues- spawn num clues as defined by ref.
+    Place rumor token - place on space listed.
+    Place Eldritch Token - Place listed num eldritch tokens on this mythos card.
+    Resolve effect- If card has the EVENt trait listed above text effect, immediately resolve
+    effect and discard card. If ongoing, place in play near AO sheet. remains in play until
+    discarded by game effect.
+    Investigators resolve only effects displayed on current mythos card.
+
+Game Loss - 
+    if doom token reaches 0
+    all investigators eliminated from game
+    card effect causes loss to happen
+    Investigaros required to draw Mythos card but Mythos deck is empty
+    
+
