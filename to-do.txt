@@ -171,3 +171,71 @@ Game Loss -
     Investigaros required to draw Mythos card but Mythos deck is empty
     
 
+
+def chooseAncientOne():
+    #allow players to choose Ancient One. Set up game based on that.
+    pass
+def setupTokensAndDecks():
+    #create gate stack - randomize tokens 
+    #create Clue pool 
+    #create general token pool - may not be necessary
+    #create monster cup
+
+    #shuffle expedition encounter cards into single deck.
+    #shuffle spells/conditions into 2 separate decks
+    pass
+def chooseInvestigator():
+    pass
+def createMythosDeck():
+    #use research encounter, special encounter, and msyery cards corresponding to AO only.
+    #based on AO sheet.
+    #3 piles based on color. 
+    #take random cards of denoted color/quantity. shuffle together.
+    #do for all stages.
+    pass
+def takeAction():
+    pass
+def travelAction():
+    #move to adjacent space
+    #may spend any num travel tokens to move an additional space.
+    pass
+def tradeAction():
+    #may trade asset, artifact, clue, spell, ticket with another player on same space
+    pass
+def prepForTravelAction():
+    #if on city space, gain 1 ticket of choice. Can only gain tickets of there
+    #is an associated path.
+    #cannot have more than 2.
+    pass
+def acquireAssetsAction():
+    #if on city space. Test influence, gain assets from reserve with total value <= num successes.
+    pass
+def componentAction():
+    #can perform actions of different components
+    #may perform components held by other investigators in his space if its local.
+    pass
+def resolveTest():
+    #roll dice specific to character.
+    #return successes.
+    pass
+
+METHODS TO TEST:
+   #numGeneralPaths() - return the number of generic paths associated with the location
+    #numTrainPaths()   - return number of train paths associated with the location
+    #numBoatPaths()    - return number of boat paths associated with the location
+    #numTotalPaths()   - returns total number of all paths associated with the location
+    #hasTrainPaths()   - checks if the location has train paths, returns true if it does and false if it doesnt.
+    #hasBoatPaths()    - checks if the location has boat paths, returns true if it does and false if it doesnt.
+    #canTravel(loc2)   - determines if its possible to travel from the current location to loc2.
+
+    boardLoc Class-
+    -placeAtLoc(entity) -place entity at loc
+    -removeFromLoc(entity) -remove entity from loc
+    -checkLoc() -check what entities are currently attached to loc object
+
+    gameBoard class:
+    traversePath(entity,loc1,loc2) -move entity from loc1 to loc2
+    
+    investigator class:
+    currentLoc attribute -should display current location of investigator
+    -showCurrenLoc() - ditto, except it displays loc name
