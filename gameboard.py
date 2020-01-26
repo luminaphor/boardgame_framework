@@ -9,6 +9,8 @@ class boardLoc: #generic class for a location node
         self.boatPaths= [] #contains possible destinations that can be travelled to from the location object, along with the type of path it is (i.e boat, train, generic)
         self.trainPaths= []
         self.generalPaths= []
+
+        self.paths={"train":[],"boat":[],"generic":[]}
         
         self.atLoc=[]
 
@@ -81,6 +83,27 @@ class minorLoc(boardLoc): #Minor (numbered) location node. Inherits all properti
         self.locNum=locNum
         self.locType=locType
 
+class pathType:
+    pathID=0
+    pathTotalID=0
+
+    def __init__(self,loc1,loc2,isTrainPath=False,isBoatPath=False):
+        self.pathID = self.pathTotalID
+        pathType.pathTotalID+=1
+
+        self.isTrainPath=isTrainPath
+        self.isBoatPath=isBoatPath
+
+        if self.isTrainPath:
+            loc1.paths["train"]=loc2
+            loc2.paths["train"]=loc1
+        elif self.isBoatPath:
+            loc1.paths["boat"]=loc2
+            loc2.paths["boat"]=loc1
+        else:
+            loc1.paths["generic"]=loc2
+            loc2.paths["generic"]=loc1
+
 class gameBoard: #game board class, will be used to actually arrange everything and manage events/character travel.
     ML1=majorLoc("San Franciso","City")
     ML2=majorLoc("Arkham","City")
@@ -88,13 +111,20 @@ class gameBoard: #game board class, will be used to actually arrange everything 
     ML4=majorLoc("Tunguska","Wilderness")
     ML5=majorLoc("The Himalayas","Wilderness")
 
+    ML6=majorLoc("Egypt","City")
+    ML7=majorLoc("Rome","City")
+
     mL1=minorLoc("1","City")
     mL2=minorLoc("2","Sea")
     mL3=minorLoc("3","Wilderness")
     mL4=minorLoc("4","City")
     mL5=minorLoc("5","City")
 
-    locsList=[ML1,ML2,ML3,ML4,ML5,mL1,mL2,mL3,mL4,mL5]
+    mL6=minorLoc("6","City")
+    mL7=minorLoc("7","Wilderness")
+
+    locsList=[ML1,ML2,ML3,ML4,ML5,ML6,ML7,mL1,mL2,mL3,mL4,mL5,mL6,mL7]
+    pathIDList=[]
     
     def __init__(self):
         self.createPath(self.ML1,self.ML2,isTrainPath=True)
@@ -104,6 +134,11 @@ class gameBoard: #game board class, will be used to actually arrange everything 
         self.createPath(self.ML2,self.ML3)
         self.createPath(self.ML2,self.mL3)
         self.createPath(self.ML2,self.mL4)
+
+        pathType(self.ML6,self.mL6)
+        pathType(self.ML7,self.mL7)
+        pathType(self.ML6,self.ML7,isTrainPath=True)
+        pathType(self.ML6,self.mL7,isBoatPath=True)
 
     def createPath(self,loc1,loc2,isTrainPath=False,isBoatPath=False): #creates a path between two locations by assigning their location ID's to their respective path lists.
         if isTrainPath:
@@ -123,5 +158,16 @@ class gameBoard: #game board class, will be used to actually arrange everything 
 def outputBoardPaths(listOfPaths):
     for path in listOfPaths:
         print("Location ID: {}\nPaths: {}\n".format(path.locID,path.checkPaths()))
+
+
+testLoc1=boardLoc()
+testLoc2=boardLoc()
+pathType(testLoc1,testLoc2)
+pathType(testLoc1,testLoc2,isTrainPath=True)
+
+print(testLoc1.paths)
+print(testLoc2.paths)
+
+
 
 

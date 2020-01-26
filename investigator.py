@@ -81,8 +81,9 @@ class Investigator:
         pass
     
     def travelAction(self,destLoc):
-        pass
-    
+        traversePath(self,self.currentLoc,destLoc)
+        self.currentLoc = destLoc
+        
     def showCurrentLoc(self):
         return self.currentLoc.showLocName()
       
